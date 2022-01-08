@@ -13,7 +13,8 @@ import com.sv.vaas.model.locations
 class IncidentAdapter(val incidents:List<Feed>):
 RecyclerView.Adapter<IncidentAdapter.viewHolder>(){
     inner class viewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
-        val textView:TextView=itemView.findViewById(R.id.inci_text)
+        val time:TextView=itemView.findViewById(R.id.inci_time)
+        val gforce:TextView=itemView.findViewById(R.id.gforce)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): viewHolder {
@@ -29,7 +30,10 @@ RecyclerView.Adapter<IncidentAdapter.viewHolder>(){
     override fun onBindViewHolder(holder: viewHolder, position: Int) {
         val incident = incidents[position]
         Log.i("vaas", "onBindViewHolder: in binding")
-        holder.textView.text=incident.field1 + incident.field2
+        val incTime = incident.field4
+        val incGf = incident.field3
+        holder.time.text="TOI:$incTime"
+        holder.gforce.text="G-force:$incGf"
         holder.itemView.setOnClickListener {
             val intent = Intent(it.context,MapsActivity::class.java)
                 .putExtra("Lat",incident.field1)

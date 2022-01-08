@@ -7,13 +7,30 @@
         android:id="@+id/inci_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="@color/red"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp">
         <TextView
-            android:id="@+id/inci_text"
+            android:id="@+id/inci_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="incident at :"
-            android:textSize="24sp"/>
+            android:text="TOI: 16:18:25"
+            android:textSize="24sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/white"
+            android:layout_margin="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gforce"
+            android:textColor="@color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:text="G-Force: 32g"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:layout_gravity="right"/>
+
     </com.google.android.material.card.MaterialCardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
