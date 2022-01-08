@@ -11,7 +11,7 @@ This cloud database will be continuously read by a client side application, whic
 The device will be based on Arduino Uno. The microcontroller will be responsible for sensing the crash with inputs from different sensors. And sending the SOS with the location of the incident.
 ### Components of the device
 - Arduino Uno
-- ADLX355 Accelerometer Sensor
+- ADLX345 Accelerometer Sensor
 - Neo 6m GPS Module
 - ESP8266 Wifi-Module
 
