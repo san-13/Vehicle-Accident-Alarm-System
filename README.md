@@ -24,3 +24,8 @@ After the detection of crash the Arduino recieves the co-ordinates of the locati
 ### Monitoring The Distress Signals
 An Android Application built with kotlin will monitor the distress signals. It downloads the data from thingspeak in form of JSON file and then displays the time of accident and the g-force in a recyclerview. When clicked on the accident tab it shows the location of that accident marked on a google map.
 
+## Future Scope
+The device can be further improved with additon of more sensors like fire sensors or cameras that can send the damage assesment with the distress call as well. Radio communication can also be established since internet connectivity is not always available and to further improve the connectivity radio signals can be relayed from the radio of other vehicles as well.
+
+## Other use cases
+Trigger in this project is the g-force but repalcing it with fire sensors it can also be used as a fire alarm where the fire brigade can instantly know the location of fire.
