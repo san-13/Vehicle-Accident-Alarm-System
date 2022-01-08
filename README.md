@@ -28,7 +28,7 @@ An Android Application built with kotlin will monitor the distress signals. It d
 The device can be further improved with additon of more sensors like fire sensors or cameras that can send the damage assesment with the distress call as well. Radio communication can also be established since internet connectivity is not always available and to further improve the connectivity radio signals can be relayed from the radio of other vehicles as well.
 
 ## Other use cases
-Trigger in this project is the g-force but repalcing it with fire sensors it can also be used as a fire alarm where the fire brigade can instantly know the location of fire.
+Trigger in this project is the g-force but repalcing it with flame sensors it can also be used as a fire alarm where the fire brigade can instantly know the location of fire.
 
 ## Prototype
 ![Prototype](https://github.com/san-13/Vehicle-Accident-Alarm-System/blob/main/Images/Hackathon%20Dotslash%205.0%20Prototype.jpeg)
