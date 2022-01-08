@@ -4,19 +4,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Home">
+    tools:context=".Home"
+    android:background="@color/dark">
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Refresh"
+        android:id="@+id/liveAcc"
+        android:text="Live Accidents"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        style="@style/MaterialAlertDialog.MaterialComponents.Title.Text"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/refreshBtn"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/ic_baseline_refresh_24"
+        android:layout_margin="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/incident_recycler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/liveAcc" />
 
 
 
