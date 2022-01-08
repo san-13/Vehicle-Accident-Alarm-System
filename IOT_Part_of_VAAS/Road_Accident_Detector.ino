@@ -48,9 +48,9 @@ void setup() {
 
 void loop() {
   valSensor = getSensorData(ADXL345);
-  float longitude = 83.7;
-  float latitude = 27.7;
-  String Time="22:10:50";
+  float longitude = 0;
+  float latitude = 0;
+  String Time="";
   getting_latitude_and_longitude(&latitude, &longitude, &Time);
   
   if (valSensor>26.4){
