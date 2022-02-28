@@ -35,3 +35,5 @@ Trigger in this project is the g-force but repalcing it with flame sensors it ca
 ![Prototype](https://github.com/san-13/Vehicle-Accident-Alarm-System/blob/main/Images/Hackathon%20Dotslash%205.0%20Prototype.jpeg)
 ## Simulation
 ![Simulation](https://github.com/san-13/Vehicle-Accident-Alarm-System/blob/main/Images/Hackathon%20DotSlash%205.0%20Simulation.png)
+## Video Link
+[Video Link](https://www.canva.com/design/DAE5oaGX7Sc/cycxcw7-kul1eWivkMsZDQ/watch?utm_content=DAE5oaGX7Sc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
